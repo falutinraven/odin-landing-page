@@ -1,9 +1,29 @@
+body {
+  margin: 0;
+}
+
 .page {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
+  align-items: stretch;
+  height: 100vh;
+}
 
+.page > * {
+  flex: 1;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.links {
+  display: flex;
+  justify-content: row;
+  gap: 10px;
 }
 
 .dark {
@@ -41,4 +61,25 @@ button, .blue-background {
 .quote {
   font-style: italic;
   background-color: #e5e7eb
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
+
+.list {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-container {
+  display: flex;
+  margin: 20px 0 60px 0;
+  gap: 20px;
 }
