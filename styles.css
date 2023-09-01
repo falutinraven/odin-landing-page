@@ -1,0 +1,44 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.dark {
+  background-color: #1f2937;
+  color: #f9faf8
+}
+
+.main {
+  font-size: 48px;
+}
+
+.big {
+  font-weight: 1000;
+}
+
+.secondary {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+button, .blue-background {
+  background-color: #3882f6
+
+}
+
+.lower-main {
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.quote {
+  font-style: italic;
+  background-color: #e5e7eb
+}
