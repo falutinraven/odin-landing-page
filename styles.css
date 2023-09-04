@@ -18,6 +18,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 50px 0px;
 }
 
 .links {
@@ -49,8 +50,17 @@ body {
 }
 
 button, .blue-background {
-  background-color: #3882f6
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 4px;
+}
 
+button {
+  border: solid #1f2937
+}
+
+.white-bd {
+  border: 1px solid white;
 }
 
 .lower-main {
@@ -60,9 +70,15 @@ button, .blue-background {
 
 .quote {
   font-style: italic;
-  background-color: #e5e7eb
+  background-color: #e5e7eb;
+  display: flex;
+  flex-flow: column;
 }
 
+.credit {
+  align-self: end;
+  font-weight: 700;
+}
 
 .header {
   display: flex;
@@ -82,4 +98,34 @@ button, .blue-background {
   display: flex;
   margin: 20px 0 60px 0;
   gap: 20px;
+}
+
+.img-and-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 150px;
+}
+
+
+.footer {
+  text-align: center;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+}
+
+.blue-background {
+  width: 80%;
+  height: 100%;
+  display: flex;
+}
+
+.img-and-text > div {
+  text-align: center;
 }
